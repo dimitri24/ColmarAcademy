@@ -331,10 +331,12 @@ footer a {
 {
 
   /* Header */
+
   header {
-    height: 64px;
     width: 100%;
+    height: 64px;
   }
+
 
   .logo h1 {
     display: none;
@@ -346,33 +348,38 @@ footer a {
 
   .heading-text img {
     visibility: visible;
-    display: inline;
   }
 
   /* Banner */
 
   .banner {
     display: block;
+    padding-bottom: 16px;
+  }
+
+  .banner-image {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 0;
+  }
+
+  .banner-image img {
+    display: block;
     width: 100%;
   }
 
-  .banner-text {
+  .banner-text h1 {
     padding-left: 16px;
   }
 
-  .banner-text h1 {
-    padding-top: 32px;
-    padding-bottom: 32px;
-  }
-
   .banner-text p {
-    padding-bottom: 24px;
+    padding-left: 16px;
   }
 
   .banner-text a {
-    padding-bottom: 32px;
+    position: relative;
+    left: 60px;
   }
-
 
   /* Information Section */
 
@@ -391,39 +398,61 @@ footer a {
     padding-top: 16px;
     padding-left: 16px;
     padding-bottom: 32px;
-
+    border-bottom: hidden;
+    width: 400px;
+    position: relative;
+    left: 18px;
   }
 
   .more-info img {
     width: 100%;
+    height: 250px;
+    display: block;
+    padding-bottom: 8px;
   }
 
   .more-info aside {
     padding-left: 16px;
     padding-top: 8px;
+    width: 100%;
+  }
+
+  .more-info .sub-content:last-child {
+    background-color: #ffffff;
   }
 
   /* Academics Section */
 
   .academics {
     background-color: #ffffff;
+    border-top: 1px solid #c0c0c0;
   }
 
   .academics h3 {
     background-color: #c0c0c0;
   }
 
+  .course-content {
+    position: relative;
+    left: 15px;
+  }
+
   .course-content img, .course-content p {
     display: none;
   }
 
+
   /* Thesis Exhibit */
+  .thesis {
+    border-top: 1px solid #c0c0c0;
+  }
 
   .thesis-content {
     display: block;
   }
 
   .thesis-video {
+    margin-left: 0;
     width: 100%
   }
 
